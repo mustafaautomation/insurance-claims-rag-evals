@@ -1,0 +1,32 @@
+# Offline metrics are measured in CI. Live-only metrics run when OPENAI_API_KEY is set.
+metrics:
+  refusal_correctness:
+    minimum: 0.95
+    modes: [offline, live]
+  hit_rate:
+    minimum: 0.90
+    modes: [offline, live]
+  mrr:
+    minimum: 0.90
+    modes: [offline, live]
+  string_presence:
+    minimum: 0.90
+    modes: [offline, live]
+  non_llm_context_recall:
+    minimum: 0.90
+    modes: [offline, live]
+  non_llm_context_precision:
+    minimum: 0.90
+    modes: [offline, live]
+  faithfulness:
+    minimum: 0.70
+    modes: [live]
+  answer_relevancy:
+    minimum: 0.70
+    modes: [live]
+  context_precision:
+    minimum: 0.70
+    modes: [live]
+  context_recall:
+    minimum: 0.70
+    modes: [live]

@@ -1,0 +1,8 @@
+top_k: 4
+chunk_size: 2500
+chunk_overlap: 200
+embedding_dim: 384
+min_retrieval_score: 0.08
+chat_model: gpt-4o-mini
+judge_model: gpt-4o-mini
+embedding_model: text-embedding-3-small
