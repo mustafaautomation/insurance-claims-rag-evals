@@ -1,0 +1,12 @@
+{
+  "label": "illustrative_example_not_a_real_run",
+  "metrics": {
+    "answer_relevancy": null,
+    "context_precision": null,
+    "context_recall": null,
+    "faithfulness": null
+  },
+  "note": "Schema example only. No judge model was run. Scores are null on purpose. The offline gate does not read this file. Live mode fills these metrics only when OPENAI_API_KEY is set.",
+  "real_run": false,
+  "source": "schema_only"
+}
